@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single page portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+            *{
+                margin: 0;
+            }
+            .navbar{
+                background-color: blue;
+                color: white;
+                overflow: hidden;
+                
+            }
+            .navbar p{
+                display: inline;
+                padding: 15px;
+                cursor: pointer;
+                
+            }
+            #img{
+                float:right;
+            }
+            #skills{
+                margin-top: 15px;
+            }
+            .a .pro{
+                margin-top: 15px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="navbar sticky-top">
+            <p>Madamanchi Venkat Kiran</p>
+            <p>About me</p>
+            <p>Qualities</p>
+            <p>Skills</p>
+            <p>Contact us</p>
+        </div>
+        <h1 style="margin-top: 18px; margin-left: 25px; font-family: cursive;" class="col col-sm-12 col-md-8 col-lg-8">Madamanchi Venkat Kiran</h1>
+        <h2 style="margin-left: 25px; font-family: cursive;" class="col col-sm-12 col-md-8 col-lg-8">-Student</h2>
+        <img id ="img" style="height: 250px; width: 250px;"  class="col col-sm-12 col-md-4 col-lg-4" src="https://assets.webiconspng.com/uploads/2016/12/User-Icon.png">
+        <h2 style="margin-top: 150px; margin-left: 25px;"><u>About Myself</u></h2>
+        <p id ="aboutme" style="margin-left: 25px;" class="col col-sm-12">Iam M venkat kiran iam currently pursuing Btech 3rd year in Lovely Professional University. </p>
+        <h2 style="margin-top: 25px; margin-left: 25px;"><u>Qualities:</u></h2>
+        <ul id="ql">
+            <li>1st Quality</li>
+            <li>2nd Quality</li>
+            <li>3rd Quality</li>
+            <li>4th Quality</li>
+        </ul>
+        <h2 style="margin-top: 25px; margin-left: 25px;"><u>Skills:</u></h2>
+        <div class="container a" id="skills">
+            <div class="progress pro col-sm-12">
+                C
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress pro">
+                  C++
+                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress pro">
+                  HTML
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress pro">
+                  CSS
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+        </div>
+        <h2 style="margin-top: 25px; margin-left: 25px;"><u>Contact us</u></h2>
+        <form id="contact">
+            <br>
+            <br>
+            Email: <br>
+            <input type="email">
+            <br>
+            <br>
+            <br>
+            Message: <br>
+            <input type="text">
+            <br>
+            <br>
+            <input type="submit" value="submit" style="background-color: blue; padding: 10px; margin-left: 20px; color: white;" >
+        </form>
+    </body>
+</html>
